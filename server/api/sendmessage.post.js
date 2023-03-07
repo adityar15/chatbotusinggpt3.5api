@@ -2,32 +2,8 @@ import { Configuration, OpenAIApi } from "openai"
 
 export default defineEventHandler(async (event) => {
   const courses = [
-    {
-      name: "Learn Fast API by creating an API",
-      type: "text-based-course",
-      description: "Learn how to create a REST API using FastAPI, SQLAlchemy, Pydantic, JWT and advanced concepts like dependency injection, and more.",
-      price: "19.99 GBP",
-      url: "https://adiranids.com/courses/learn-fast-api-by-creating-an-api",
-    },
-    {
-      name: "Learn Express with TypeScript by creating a Serverless API",
-      type: "text-based-course",
-      description: "Learn how to create a REST API using Express, TypeScript, Prisma, JWT, and advanced concepts like serverless api, deployment on Firebase, and more.",
-      price: "29.99 GBP",
-      url: "https://adiranids.com/courses/learn-express-with-typeScript-by-creating-a-serverless-api",
-    },
-    {
-        name: "Python complete tutorial with application building.",
-        type: "udemy-course",
-        description: "Become a flexible python developer and learn about essential concepts of python programming.",
-        url: "https://www.udemy.com/course/python-tutorial-with-application-build/learn/lecture/35538442?referralCode=9D7A6B41CD36B0EBE2F5#overview",
-    },
-    {
-        name: "Learning Next.js and creating a web app",
-        type: "udemy-course",
-        description: "Complete Next 12 course with a real-world project. Learn Next.js, React, Tailwind CSS, and more.",
-        url: "https://www.udemy.com/course/learning-nextjs-and-creating-a-web-app/learn/lecture/30440060?referralCode=F2356117D9AEED892536#overview",
-    },
+    //  you can add your data here and change the courses to something else.
+    // you can also fetch data from a database or an API
 
   ]
 
